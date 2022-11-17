@@ -16,7 +16,6 @@ public class BasicCalculator {
 
 		System.out.println("Enter the numbers");
 
-		// take the inputs
 		num1 = sc.nextDouble();
 
 		num2 = sc.nextDouble();
@@ -29,28 +28,24 @@ public class BasicCalculator {
 
 		switch (op) {
 
-		// case to add two numbers
 		case '+':
 
 			o = num1 + num2;
 
 			break;
 
-		// case to subtract two numbers
 		case '-':
 
 			o = num1 - num2;
 
 			break;
 
-		// case to multiply two numbers
 		case '*':
 
 			o = num1 * num2;
 
 			break;
 
-		// case to divide two numbers
 		case '/':
 
 			o = num1 / num2;
